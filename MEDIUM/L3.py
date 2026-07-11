@@ -29,7 +29,7 @@ def reverse(x):
         x= str(x)
         rev = int(x[::-1])
     else:
-        x =str(x)
+        x =str(-x)
         rev = -1*int(x[::-1])
     if rev < (-2**31) or rev >(2**31-1):
         rev = 0
