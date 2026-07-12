@@ -28,20 +28,21 @@ Therefore, the answer is x * sum = 1 * 1 = 1.
 
 n = 10203004
 
-n = str(n)
-
-word = (n.replace("0", ""))
-if word == "":
-    print(0)
-sum= []
-for i in range(len(word)):
-    
-    sum.append(int(word[i]))
-    
-multiplier = 0
-for i in range(len(sum)):
-    multiplier =  multiplier + sum[i]
-
-output = multiplier * int(word) 
-print(output)
-    
+def sumAndMultiply(self, n):
+    n = str(n)
+     
+    word = (n.replace("0", ""))
+    if word == "":
+         print(0)
+    sum= []
+    for i in range(len(word)):
+         
+        sum.append(int(word[i]))
+         
+    multiplier = 0
+    for i in range(len(sum)):
+        multiplier =  multiplier + sum[i]
+     
+    output = multiplier * int(word) 
+    return (output)
+         
