@@ -1,20 +1,23 @@
-
+import math
 def isNumber(s):
-    # if type(s) == float:
-    #     if ord(s) in range(48,58):
-    #         return True
-    if len(s)>1:
-        s = s[0]
-        if ord(s) in range(48,58):
-            return True
-        else:
-            return False
-    if ord(s) in range(48,58):
+    
+    
+    try:
+        int(s)
         return True
-    else:
-        return False
+    except ValueError:
+        try:
+            float(s)
+            if math.isinf(float(s)) or math.isnan(float(s)):
+                return False
+            return True
+        except ValueError:
+            return False
+                
+        
 
-n = "44"
+n = "inf"
+
 
 print(isNumber(n))    
         
