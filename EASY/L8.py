@@ -28,3 +28,11 @@ def gcdOfOddEvenSums(self, n):
         sum2 = n*(n+1)
 
         return sum2-sum1
+
+
+'''
+# NOTE: The full mathematical calculation is unnecessary because the difference
+# between the sum of the first n odd numbers and the sum of the first n even
+# numbers is always n.
+# Therefore, simply returning n will also pass all the test cases.
+'''
