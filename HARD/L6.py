@@ -16,7 +16,7 @@ def isNumber(s):
                 
         
 
-n = "inf"
+n = "e3"
 
 
 print(isNumber(n))    
