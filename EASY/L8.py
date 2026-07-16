@@ -23,7 +23,7 @@ Hence, GCD(sumOdd, sumEven) = GCD(25, 30) = 5.
 '''
 
 
-def gcdOfOddEvenSums(self, n):
+def gcdOfOddEvenSums( n):
         sum1 = n**2
         sum2 = n*(n+1)
 
