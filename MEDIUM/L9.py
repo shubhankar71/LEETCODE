@@ -1,7 +1,6 @@
 '''
 Sum of GCD of Formed Pairs
 
-<<<<<<< HEAD
 You are given an integer array nums of length n.
 Construct an array prefixGcd where for each index i:
 Let mxi = max(nums[0], nums[1], ..., nums[i]).
@@ -43,9 +42,6 @@ i	nums[i]	mxi	prefixGcd[i]
 3	  8	     8	   8
 prefixGcd = [3, 6, 2, 8]. After sorting, it forms [2, 3, 6, 8].
 Form pairs: gcd(2, 8) = 2 and gcd(3, 6) = 3. Thus, the sum is 2 + 3 = 5
-
-=======
->>>>>>> f29709cf0b99a888471f6f69970f8273a7c4e454
 '''
 
 
