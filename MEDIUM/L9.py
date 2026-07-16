@@ -1,7 +1,10 @@
 '''
 Sum of GCD of Formed Pairs
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d7b57ef6feb4cd45432d485116635325289e1d9b
 You are given an integer array nums of length n.
 Construct an array prefixGcd where for each index i:
 Let mxi = max(nums[0], nums[1], ..., nums[i]).
