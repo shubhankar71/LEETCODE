@@ -1,3 +1,9 @@
+'''
+Sum of GCD of Formed Pairs
+
+'''
+
+
 import math
 def gcdSum(nums):
     print(nums)
