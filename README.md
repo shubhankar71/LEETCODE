@@ -23,7 +23,7 @@ Every solved problem lives in its difficulty folder, written in clean, readable 
 |----------------|:------:|
 | 🟢 Easy        |   15    | 
 | 🟡 Medium      |   5    | 
-| 🔴 Hard        |   1    |
+| 🔴 Hard        |   2    |
 
 ## About
 
