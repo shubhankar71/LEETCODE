@@ -21,8 +21,8 @@ Every solved problem lives in its difficulty folder, written in clean, readable 
 
 | Difficulty     | Solved |
 |----------------|:------:|
-| 🟢 Easy        |   20    | 
-| 🟡 Medium      |   7    | 
+| 🟢 Easy        |   21    | 
+| 🟡 Medium      |   8    | 
 | 🔴 Hard        |   3    |
 
 ## About
